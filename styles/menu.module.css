@@ -1,0 +1,23 @@
+.menu{
+    background-color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.4);
+    justify-content: space-around;
+}
+
+.menu > div {
+    display: flex;
+}
+
+.link{
+    display: block;
+    padding: 20px 15px;
+}
+
+.link:hover{
+    background-color: rgba(194, 245, 228, 0.499);
+    border-radius: 30%;
+    color: rgb(60, 26, 148);
+}
